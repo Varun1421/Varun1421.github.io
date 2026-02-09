@@ -135,15 +135,17 @@ function draw() {
     fill(70, 130, 180);
     circle(x, y, 14);
 
-    // value label (right of dot, in M) - STAGGERED to reduce overlap
-    noStroke();
-    fill(0);
-    textSize(12);
-    textAlign(LEFT, CENTER);
-    const vLabel = (d.sales / 1_000_000).toFixed(2) + "M";
+    // value label (centred above/below dot)
+noStroke();
+fill(0);
+textSize(12);
+textAlign(CENTER, CENTER);
 
-    const yOffset = (i % 2 === 0) ? -8 : 10; // stagger labels vertically
-    text(vLabel, x + 10, y + yOffset);
+const vLabel = (d.sales / 1_000_000).toFixed(2) + "M";
+const yOffset = (i % 2 === 0) ? -14: 14;
+
+text(vLabel, x, y + yOffset);
+
   }
 
   // Small note
