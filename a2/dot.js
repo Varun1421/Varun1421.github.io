@@ -15,7 +15,7 @@ const H = 520;
 const margin = { top: 50, right: 40, bottom: 70, left: 160 };
 
 function preload() {
-  table = loadTable("brand_sales.csv", "csv", "header");
+  table = loadTable("brands_sales.csv", "csv", "header");
 }
 
 function setup() {
