@@ -9,10 +9,12 @@
 let table;
 let data = [];
 
-const W = 1000;
+// Slightly wider so everything breathes
+const W = 1100;
 const H = 520;
 
-const margin = { top: 50, right: 40, bottom: 70, left: 160 };
+// Increase left margin so brand labels + axis title fit
+const margin = { top: 50, right: 40, bottom: 70, left: 220 };
 
 function preload() {
   table = loadTable("brands_sales.csv", "csv", "header");
@@ -28,7 +30,7 @@ function setup() {
   for (let r = 0; r < table.getRowCount(); r++) {
     const brand = table.getString(r, "Brand");
     const salesRaw = table.getString(r, "TotalSales");
-    const sales = Number(String(salesRaw).replace(/,/g, "")); // safe if commas exist
+    const sales = Number(String(salesRaw).replace(/,/g, ""));
     if (brand && !isNaN(sales)) data.push({ brand, sales });
   }
 
@@ -48,9 +50,7 @@ function draw() {
     return;
   }
 
-  // Determine range
   const maxSales = max(data.map((d) => d.sales));
-  const minSales = min(data.map((d) => d.sales)); // (kept; not strictly needed but harmless)
 
   // Plot area
   const x0 = margin.left;
@@ -64,40 +64,33 @@ function draw() {
   textAlign(LEFT, CENTER);
   text("Dot Plot — Total Sales by Brand", margin.left, 22);
 
-  // X-scale mapping
+  // X scale
   const xScale = (v) => map(v, 0, maxSales * 1.05, x0, x1);
 
-  // Y positions
+  // Row spacing
   const rowStep = (y1 - y0) / (data.length - 1);
 
-  // --- Axes ---
+  // Axes
   stroke(0);
   strokeWeight(1);
+  line(x0, y1, x1, y1); // x-axis
+  line(x0, y0, x0, y1); // y-axis
 
-  // X-axis
-  line(x0, y1, x1, y1);
-
-  // Y-axis
-  line(x0, y0, x0, y1);
-
-  // --- X ticks (in Millions) ---
+  // X ticks (Millions)
   const ticks = 8;
   const tickSalesStep = (maxSales * 1.05) / ticks;
 
   textSize(12);
   fill(0);
-  noStroke();
 
   for (let i = 0; i <= ticks; i++) {
     const v = i * tickSalesStep;
     const x = xScale(v);
 
-    // tick mark
     stroke(0);
     line(x, y1, x, y1 + 6);
     noStroke();
 
-    // label in M
     const label = (v / 1_000_000).toFixed(1) + "M";
     textAlign(CENTER, TOP);
     text(label, x, y1 + 10);
@@ -109,46 +102,45 @@ function draw() {
   textAlign(CENTER, TOP);
   text("Total Sales", (x0 + x1) / 2, height - margin.bottom + 40);
 
+  // Move Y-axis title LEFT so it doesn't overlap brand names
   push();
-  translate(20, (y0 + y1) / 2);
+  translate(margin.left - 190, (y0 + y1) / 2);  // <— key change
   rotate(-HALF_PI);
-  textAlign(CENTER, TOP);
+  textAlign(CENTER, CENTER);
   text("Brand", 0, 0);
   pop();
 
-  // --- Points + brand labels ---
+  // Points + brand labels
   for (let i = 0; i < data.length; i++) {
     const d = data[i];
     const y = y0 + i * rowStep;
     const x = xScale(d.sales);
 
-    // brand labels (left)
+    // Brand labels: align RIGHT just left of the axis
     fill(0);
     noStroke();
     textSize(13);
-    textAlign(LEFT, CENTER);
-    text(d.brand, x0 - 140, y);
+    textAlign(RIGHT, CENTER);
+    text(d.brand, x0 - 12, y);
 
-    // dot
+    // Dot
     stroke(40);
     strokeWeight(1);
     fill(70, 130, 180);
     circle(x, y, 14);
 
-    // value label (centred above/below dot)
-noStroke();
-fill(0);
-textSize(12);
-textAlign(CENTER, CENTER);
+    // Value label centered above/below the dot (no crowding)
+    noStroke();
+    fill(0);
+    textSize(12);
+    textAlign(CENTER, CENTER);
 
-const vLabel = (d.sales / 1_000_000).toFixed(2) + "M";
-const yOffset = (i % 2 === 0) ? -14: 14;
-
-text(vLabel, x, y + yOffset);
-
+    const vLabel = (d.sales / 1_000_000).toFixed(2) + "M";
+    const yOffset = (i % 2 === 0) ? -14 : 14;
+    text(vLabel, x, y + yOffset);
   }
 
-  // Small note
+  // Note
   noStroke();
   fill(70);
   textSize(12);
