@@ -1,7 +1,7 @@
 // Dot plot: Total Sales by Brand
-// Expects a CSV in the same folder named: brand_sales.csv
+// Expects a CSV in the same folder named: brands_sales.csv
 // CSV format (with header):
-// Brand,TotalSales
+// Brand, TotalSales
 // Asus,2947594
 // MSI,3205254
 // ...
@@ -44,13 +44,13 @@ function draw() {
   if (data.length === 0) {
     fill(0);
     textSize(16);
-    text("No data loaded. Check brand_sales.csv file path/name.", 30, 40);
+    text("No data loaded. Check brands_sales.csv file path/name.", 30, 40);
     return;
   }
 
   // Determine range
   const maxSales = max(data.map((d) => d.sales));
-  const minSales = min(data.map((d) => d.sales));
+  const minSales = min(data.map((d) => d.sales)); // (kept; not strictly needed but harmless)
 
   // Plot area
   const x0 = margin.left;
@@ -135,13 +135,15 @@ function draw() {
     fill(70, 130, 180);
     circle(x, y, 14);
 
-    // value label (right of dot, in M)
+    // value label (right of dot, in M) - STAGGERED to reduce overlap
     noStroke();
     fill(0);
     textSize(12);
     textAlign(LEFT, CENTER);
     const vLabel = (d.sales / 1_000_000).toFixed(2) + "M";
-    text(vLabel, x + 10, y);
+
+    const yOffset = (i % 2 === 0) ? -8 : 10; // stagger labels vertically
+    text(vLabel, x + 10, y + yOffset);
   }
 
   // Small note
@@ -150,7 +152,7 @@ function draw() {
   textSize(12);
   textAlign(LEFT, TOP);
   text(
-    "Data source: brand_sales.csv (exported/aggregated from Online-eCommerce dataset)",
+    "Data source: brands_sales.csv (exported/aggregated from Online-eCommerce dataset)",
     margin.left,
     height - 28
   );
