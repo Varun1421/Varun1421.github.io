@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <title>A2 – Bar Chart (Top States)</title>
+    <meta charset="utf-8" />
+    <title>Bar Chart – Total Sales by State</title>
 
-    <!-- p5.js CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.10/p5.js"></script>
+    <!-- p5.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.10/p5.min.js"></script>
+    <script src="bar.js"></script>
   </head>
 
   <body>
-    <h2>Top 10 Indian States by Total Sales</h2>
+    <h1>Top 10 States by Total Sales</h1>
+
     <p>
-      This bar chart visualizes total sales by state using data loaded from a CSV
-      file. Maharashtra (MH) clearly dominates total sales.
+      This page shows a bar chart of total sales by state.
+      The static chart below is created in Tableau, and the interactive chart
+      underneath is implemented using p5.js with the same dataset.
     </p>
 
-    <script src="bar.js"></script>
+    <h2>Tableau Bar Chart</h2>
+    <img
+      src="bar_tableau.png"
+      alt="Top 10 States by Total Sales - Tableau"
+      width="900"
+    />
+
+    <h2>p5.js Bar Chart</h2>
+    <div id="sketch-holder"></div>
+
   </body>
 </html>
