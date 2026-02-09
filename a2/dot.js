@@ -14,7 +14,7 @@ const W = 1100;
 const H = 520;
 
 // Increase left margin so brand labels + axis title fit
-const margin = { top: 50, right: 40, bottom: 70, left: 220 };
+const margin = { top: 50, right: 40, bottom: 100, left: 220 };
 
 function preload() {
   table = loadTable("brands_sales.csv", "csv", "header");
@@ -148,6 +148,6 @@ function draw() {
   text(
     "Data source: brands_sales.csv (exported/aggregated from Online-eCommerce dataset)",
     margin.left,
-    height - 5
+    height - 24
   );
 }
