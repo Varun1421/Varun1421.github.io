@@ -148,6 +148,6 @@ function draw() {
   text(
     "Data source: brands_sales.csv (exported/aggregated from Online-eCommerce dataset)",
     margin.left,
-    height - 28
+    height - 10
   );
 }
