@@ -142,12 +142,12 @@ function draw() {
 
   // Note
   noStroke();
-  fill(70);
-  textSize(12);
+  fill(120);
+  textSize(11);
   textAlign(LEFT, TOP);
   text(
     "Data source: brands_sales.csv (exported/aggregated from Online-eCommerce dataset)",
     margin.left,
-    height - 10
+    height - 5
   );
 }
