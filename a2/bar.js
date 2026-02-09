@@ -5,9 +5,10 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(900, 450);
-  noLoop();
+  let canvas = createCanvas(900, 500);
+  canvas.parent("sketch-holder");
 }
+
 
 function draw() {
   background(255);
