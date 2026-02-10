@@ -1,6 +1,6 @@
 // Heatmap: Monthly Sales Intensity by Category
 // Reads: category_month_sales.csv
-// Header: Category,Month,TotalSales
+// Header: Category, Month, TotalSales
 
 let table;
 let rows = [];
@@ -99,13 +99,15 @@ function draw() {
   textAlign(CENTER, CENTER);
   text("Order Date (Month)", (x0 + x1) / 2, 66);
 
-  // Axis label left
-  push();
-  translate(55, (y0 + y1) / 2);
-  rotate(-HALF_PI);
-  textAlign(CENTER, CENTER);
-  text("Category", 0, 0);
-  pop();
+  // Axis label left (move it left of the category names)
+push();
+translate(x0 - 90, (y0 + y1) / 2);   // was translate(55, ...)
+rotate(-HALF_PI);
+fill(60);
+textSize(14);
+textAlign(CENTER, CENTER);
+text("Category", 0, 0);
+pop();
 
   // Heatmap cells + hover detect
   hoverCell = null;
@@ -148,13 +150,14 @@ function draw() {
     text(months[j], x, y0 - 10);
   }
 
-  // Category labels (left)
-  textAlign(LEFT, CENTER);
-  for (let i = 0; i < categories.length; i++) {
-    const y = y0 + i * cellH + cellH / 2;
-    text(categories[i], x0 - 210, y);
-  }
-
+  // Category labels (right-align just left of grid)
+fill(0);
+textSize(13);
+textAlign(RIGHT, CENTER);
+for (let i = 0; i < categories.length; i++) {
+  const y = y0 + i * cellH + cellH / 2;
+  text(categories[i], x0 - 12, y);  // was x0 - 210
+}
   // Legend
   drawLegend(vMin, vMax);
 
