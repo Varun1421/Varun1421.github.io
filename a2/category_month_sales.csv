@@ -1,0 +1,157 @@
+Category,Month,TotalSales
+Cabinet,January,1200000
+Cabinet,February,1150000
+Cabinet,March,1650000
+Cabinet,April,1580000
+Cabinet,May,1400000
+Cabinet,June,1250000
+Cabinet,July,1100000
+Cabinet,August,1050000
+Cabinet,September,1120000
+Cabinet,October,1180000
+Cabinet,November,1210000
+Cabinet,December,1270000
+Computer Case,January,900000
+Computer Case,February,870000
+Computer Case,March,1400000
+Computer Case,April,1350000
+Computer Case,May,1200000
+Computer Case,June,980000
+Computer Case,July,920000
+Computer Case,August,880000
+Computer Case,September,950000
+Computer Case,October,990000
+Computer Case,November,1010000
+Computer Case,December,1080000
+CPU,January,1800000
+CPU,February,1750000
+CPU,March,5200000
+CPU,April,4950000
+CPU,May,3200000
+CPU,June,2100000
+CPU,July,1850000
+CPU,August,1700000
+CPU,September,2200000
+CPU,October,1900000
+CPU,November,2050000
+CPU,December,2300000
+Graphic Card,January,1300000
+Graphic Card,February,1250000
+Graphic Card,March,4600000
+Graphic Card,April,4300000
+Graphic Card,May,3000000
+Graphic Card,June,1900000
+Graphic Card,July,1700000
+Graphic Card,August,1600000
+Graphic Card,September,2100000
+Graphic Card,October,1750000
+Graphic Card,November,1950000
+Graphic Card,December,2150000
+HDD,January,1250000
+HDD,February,1200000
+HDD,March,4400000
+HDD,April,4100000
+HDD,May,2800000
+HDD,June,1800000
+HDD,July,1650000
+HDD,August,1550000
+HDD,September,2050000
+HDD,October,1700000
+HDD,November,1850000
+HDD,December,2000000
+Keyboard,January,650000
+Keyboard,February,630000
+Keyboard,March,780000
+Keyboard,April,760000
+Keyboard,May,710000
+Keyboard,June,670000
+Keyboard,July,640000
+Keyboard,August,620000
+Keyboard,September,660000
+Keyboard,October,690000
+Keyboard,November,705000
+Keyboard,December,725000
+Monitor,January,1500000
+Monitor,February,1450000
+Monitor,March,6200000
+Monitor,April,5850000
+Monitor,May,3600000
+Monitor,June,2200000
+Monitor,July,1950000
+Monitor,August,1800000
+Monitor,September,2400000
+Monitor,October,2050000
+Monitor,November,2250000
+Monitor,December,2550000
+Motherboard,January,1100000
+Motherboard,February,1080000
+Motherboard,March,1500000
+Motherboard,April,1450000
+Motherboard,May,1350000
+Motherboard,June,1200000
+Motherboard,July,1120000
+Motherboard,August,1060000
+Motherboard,September,1180000
+Motherboard,October,1230000
+Motherboard,November,1260000
+Motherboard,December,1320000
+Mouse,January,700000
+Mouse,February,680000
+Mouse,March,910000
+Mouse,April,880000
+Mouse,May,820000
+Mouse,June,740000
+Mouse,July,710000
+Mouse,August,690000
+Mouse,September,730000
+Mouse,October,760000
+Mouse,November,780000
+Mouse,December,805000
+NIC,January,600000
+NIC,February,590000
+NIC,March,740000
+NIC,April,720000
+NIC,May,680000
+NIC,June,620000
+NIC,July,600000
+NIC,August,585000
+NIC,September,610000
+NIC,October,640000
+NIC,November,655000
+NIC,December,675000
+Printer,January,800000
+Printer,February,780000
+Printer,March,1050000
+Printer,April,1020000
+Printer,May,940000
+Printer,June,860000
+Printer,July,820000
+Printer,August,790000
+Printer,September,830000
+Printer,October,870000
+Printer,November,900000
+Printer,December,930000
+RAM,January,950000
+RAM,February,920000
+RAM,March,1350000
+RAM,April,1300000
+RAM,May,1150000
+RAM,June,1000000
+RAM,July,960000
+RAM,August,930000
+RAM,September,990000
+RAM,October,1040000
+RAM,November,1080000
+RAM,December,1140000
+SSD,January,1400000
+SSD,February,1350000
+SSD,March,2600000
+SSD,April,2450000
+SSD,May,2050000
+SSD,June,1600000
+SSD,July,1480000
+SSD,August,1420000
+SSD,September,1750000
+SSD,October,1550000
+SSD,November,1680000
+SSD,December,1820000

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heatmap — Monthly Sales Intensity by Category</title>
+
+    <!-- p5.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.10/p5.min.js"></script>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 24px;
+      }
+      h1 {
+        margin: 0 0 12px 0;
+      }
+      .sub {
+        margin: 0 0 18px 0;
+        color: #444;
+      }
+      #sketch-holder {
+        max-width: 1280px;
+      }
+      img {
+        max-width: 1280px;
+        width: 100%;
+        margin-top: 18px;
+        border: 1px solid #ddd;
+      }
+      .caption {
+        margin-top: 6px;
+        color: #555;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>p5.js Heatmap</h1>
+    <p class="sub">Monthly Sales Intensity by Category (color = Total Sales)</p>
+
+    <div id="sketch-holder"></div>
+
+    <img src="heatmap.png" alt="Tableau Heatmap Screenshot" />
+    <div class="caption">Tableau screenshot: heatmap.png</div>
+
+    <script src="heatmap.js"></script>
+  </body>
+</html>
