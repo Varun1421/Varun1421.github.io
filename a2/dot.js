@@ -1,19 +1,16 @@
 // Dot plot: Total Sales by Brand
 // Expects a CSV in the same folder named: brands_sales.csv
 // CSV format (with header):
-// Brand, TotalSales
-// Asus,2947594
-// MSI,3205254
-// ...
+// Brand,TotalSales
 
 let table;
 let data = [];
 
-// Slightly wider so everything breathes
+// Canvas
 const W = 1100;
 const H = 520;
 
-// Increase left margin so brand labels + axis title fit
+// Margins
 const margin = { top: 50, right: 40, bottom: 100, left: 220 };
 
 function preload() {
@@ -60,70 +57,84 @@ function draw() {
 
   // Title
   fill(0);
+  noStroke();
   textSize(18);
   textAlign(LEFT, CENTER);
   text("Dot Plot — Total Sales by Brand", margin.left, 22);
 
-  // X scale
-  const xScale = (v) => map(v, 0, maxSales * 1.05, x0, x1);
+  // --- Nice tick scale (linear, "normal") ---
+  // Choose a nice step so ticks land on clean numbers (e.g., 0, 2M, 4M, ...)
+  const desiredTicks = 8;
+  const tickStep = niceStep(maxSales / desiredTicks);
+  const axisMax = Math.ceil(maxSales / tickStep) * tickStep; // round up to nice tick
+
+  // X scale (linear)
+  const xScale = (v) => map(v, 0, axisMax, x0, x1);
 
   // Row spacing
-  const rowStep = (y1 - y0) / (data.length - 1);
+  const rowStep = data.length > 1 ? (y1 - y0) / (data.length - 1) : 0;
 
-  // Axes
+  // --- Gridlines (draw first, behind everything) ---
+  // Vertical gridlines at ticks
+  stroke(230);
+  strokeWeight(1);
+  for (let v = 0; v <= axisMax + 0.0001; v += tickStep) {
+    const x = xScale(v);
+    line(x, y0, x, y1);
+  }
+
+  // Horizontal gridlines at each row
+  stroke(245);
+  strokeWeight(1);
+  for (let i = 0; i < data.length; i++) {
+    const y = y0 + i * rowStep;
+    line(x0, y, x1, y);
+  }
+
+  // --- Axes on top of grid ---
   stroke(0);
   strokeWeight(1);
   line(x0, y1, x1, y1); // x-axis
   line(x0, y0, x0, y1); // y-axis
 
-  // X ticks + vertical gridlines (Millions)
-const ticks = 8;
-const tickSalesStep = (maxSales * 1.05) / ticks;
+  // --- X ticks + labels (nice clean values) ---
+  textSize(12);
+  fill(0);
+  for (let v = 0; v <= axisMax + 0.0001; v += tickStep) {
+    const x = xScale(v);
 
-textSize(12);
-fill(0);
+    // tick mark
+    stroke(0);
+    line(x, y1, x, y1 + 6);
 
-for (let i = 0; i <= ticks; i++) {
-  const v = i * tickSalesStep;
-  const x = xScale(v);
-
-  // Gridline
-  stroke(230);          // light gray
-  strokeWeight(1);
-  line(x, y0, x, y1);
-
-  // Tick
-  stroke(0);
-  line(x, y1, x, y1 + 6);
-
-  // Label
-  noStroke();
-  const label = (v / 1_000_000).toFixed(1) + "M";
-  textAlign(CENTER, TOP);
-  text(label, x, y1 + 10);
-}
+    // label
+    noStroke();
+    textAlign(CENTER, TOP);
+    text(formatMillions(v), x, y1 + 10);
+  }
 
   // Axis labels
+  noStroke();
   fill(0);
   textSize(14);
   textAlign(CENTER, TOP);
   text("Total Sales", (x0 + x1) / 2, height - margin.bottom + 40);
 
-  // Move Y-axis title LEFT so it doesn't overlap brand names
+  // Y-axis title (kept away from brand names)
   push();
-  translate(margin.left - 190, (y0 + y1) / 2);  // <— key change
+  translate(margin.left - 190, (y0 + y1) / 2);
   rotate(-HALF_PI);
   textAlign(CENTER, CENTER);
   text("Brand", 0, 0);
   pop();
 
-  // Points + brand labels
+  // --- Points + brand labels ---
   for (let i = 0; i < data.length; i++) {
     const d = data[i];
     const y = y0 + i * rowStep;
     const x = xScale(d.sales);
 
-    // Brand labels: align RIGHT just left of the axis
+    // Brand labels: right-aligned just left of y-axis
     fill(0);
     noStroke();
     textSize(13);
@@ -136,14 +147,13 @@ for (let i = 0; i <= ticks; i++) {
     fill(70, 130, 180);
     circle(x, y, 14);
 
-    // Value label centered above/below the dot (no crowding)
+    // Value label above/below alternating
     noStroke();
     fill(0);
     textSize(12);
     textAlign(CENTER, CENTER);
-
     const vLabel = (d.sales / 1_000_000).toFixed(2) + "M";
-    const yOffset = (i % 2 === 0) ? -14 : 14;
+    const yOffset = i % 2 === 0 ? -14 : 14;
     text(vLabel, x, y + yOffset);
   }
 
@@ -157,4 +167,32 @@ for (let i = 0; i <= ticks; i++) {
     margin.left,
     height - 10
   );
+}
+
+// ---------- Helpers ----------
+
+// Picks a "nice" step size: 1, 2, 2.5, 5, 10 * 10^n
+function niceStep(rawStep) {
+  if (rawStep <= 0) return 1;
+
+  const exp = Math.floor(Math.log10(rawStep));
+  const base = Math.pow(10, exp);
+  const f = rawStep / base;
+
+  let niceF;
+  if (f <= 1) niceF = 1;
+  else if (f <= 2) niceF = 2;
+  else if (f <= 2.5) niceF = 2.5;
+  else if (f <= 5) niceF = 5;
+  else niceF = 10;
+
+  return niceF * base;
+}
+
+// Formats tick labels in millions cleanly (0M, 2M, 4M, 6M...)
+function formatMillions(v) {
+  const m = v / 1_000_000;
+  // show no decimals for clean ticks unless needed
+  if (Math.abs(m - Math.round(m)) < 1e-9) return Math.round(m) + "M";
+  return m.toFixed(1) + "M";
 }
