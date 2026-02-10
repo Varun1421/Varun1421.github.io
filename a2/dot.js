@@ -76,25 +76,32 @@ function draw() {
   line(x0, y1, x1, y1); // x-axis
   line(x0, y0, x0, y1); // y-axis
 
-  // X ticks (Millions)
-  const ticks = 8;
-  const tickSalesStep = (maxSales * 1.05) / ticks;
+  // X ticks + vertical gridlines (Millions)
+const ticks = 8;
+const tickSalesStep = (maxSales * 1.05) / ticks;
 
-  textSize(12);
-  fill(0);
+textSize(12);
+fill(0);
 
-  for (let i = 0; i <= ticks; i++) {
-    const v = i * tickSalesStep;
-    const x = xScale(v);
+for (let i = 0; i <= ticks; i++) {
+  const v = i * tickSalesStep;
+  const x = xScale(v);
 
-    stroke(0);
-    line(x, y1, x, y1 + 6);
-    noStroke();
+  // Gridline
+  stroke(230);          // light gray
+  strokeWeight(1);
+  line(x, y0, x, y1);
 
-    const label = (v / 1_000_000).toFixed(1) + "M";
-    textAlign(CENTER, TOP);
-    text(label, x, y1 + 10);
-  }
+  // Tick
+  stroke(0);
+  line(x, y1, x, y1 + 6);
+
+  // Label
+  noStroke();
+  const label = (v / 1_000_000).toFixed(1) + "M";
+  textAlign(CENTER, TOP);
+  text(label, x, y1 + 10);
+}
 
   // Axis labels
   fill(0);
