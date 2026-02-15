@@ -1,0 +1,1 @@
+Seaborn plotted chart images
