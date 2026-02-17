@@ -6,21 +6,46 @@ const VAL_COL = "Total_Sales";
 let groups = {};
 let cats = [];
 let allVals = [];
-let points = []; // store drawn points for tooltip
+let points = []; // precomputed point positions for stable jitter
+
+// consistent canvas + margins
+const W = 950, H = 600;
+const margin = { l: 110, r: 40, t: 60, b: 140 };
+let chartW, chartH;
+
+// scale cache
+let maxV = 0;
 
 function preload() {
   table = loadTable("data/Online-eCommerce_A3_clean.csv", "csv", "header");
 }
 
 function setup() {
-  createCanvas(1050, 580);
-  buildGroups();
+  createCanvas(W, H);
+  chartW = width - margin.l - margin.r;
+  chartH = height - margin.t - margin.b;
+
+  buildGroupsAndPoints();
 }
 
-function buildGroups() {
+function niceStep(maxVal, ticks = 6) {
+  const raw = maxVal / ticks;
+  const pow10 = Math.pow(10, Math.floor(Math.log10(raw)));
+  const n = raw / pow10;
+  let step;
+  if (n < 1.5) step = 1;
+  else if (n < 3) step = 2;
+  else if (n < 7) step = 5;
+  else step = 10;
+  return step * pow10;
+}
+
+function buildGroupsAndPoints() {
   groups = {};
   allVals = [];
+  points = [];
 
+  // collect data
   for (let r = 0; r < table.getRowCount(); r++) {
     const cat = table.getString(r, CAT_COL);
     const v = parseFloat(table.getString(r, VAL_COL));
@@ -31,87 +56,125 @@ function buildGroups() {
     allVals.push(v);
   }
 
-  // top 10 categories for readability
+  // pick top 10 categories by count
   cats = Object.keys(groups)
     .sort((a, b) => groups[b].length - groups[a].length)
     .slice(0, 10);
+
+  // y-scale: 0 -> padded max (consistent with your histogram/ECDF)
+  const rawMax = max(allVals);
+  maxV = rawMax * 1.05;
+
+  // build stable jitter points ONCE
+  const stepX = chartW / cats.length;
+
+  // deterministic jitter so points don't "dance"
+  // (optional: change seed number if you want different jitter layout)
+  randomSeed(42);
+
+  for (let i = 0; i < cats.length; i++) {
+    const cat = cats[i];
+    const xCenter = margin.l + (i + 0.5) * stepX;
+
+    for (let v of groups[cat]) {
+      const xJ = random(-stepX * 0.18, stepX * 0.18);
+      points.push({ cat, v, xCenter, xJ });
+    }
+  }
 }
 
 function draw() {
   background(255);
-  points = [];
 
-  const margin = { l: 80, r: 30, t: 40, b: 110 };
-  const w = width - margin.l - margin.r;
-  const h = height - margin.t - margin.b;
-
-  const minV = min(allVals);
-  const maxV = max(allVals);
+  const x0 = margin.l;
+  const y0 = margin.t + chartH;
 
   function yMap(v) {
-    return map(v, minV, maxV, margin.t + h, margin.t);
+    return map(v, 0, maxV, margin.t + chartH, margin.t);
   }
 
-  // grid
-  stroke(220);
-  for (let i = 0; i <= 10; i++) {
-    const y = margin.t + (h * i) / 10;
-    line(margin.l, y, margin.l + w, y);
+  // ---- Grid + axes ----
+  const yStep = niceStep(maxV, 6);
+
+  stroke(235);
+  strokeWeight(1);
+
+  // horizontal grid
+  for (let v = 0; v <= maxV; v += yStep) {
+    const y = yMap(v);
+    line(margin.l, y, margin.l + chartW, y);
   }
 
   // axes
   stroke(0);
-  line(margin.l, margin.t, margin.l, margin.t + h);
-  line(margin.l, margin.t + h, margin.l + w, margin.t + h);
+  line(margin.l, margin.t, margin.l, margin.t + chartH);
+  line(margin.l, margin.t + chartH, margin.l + chartW, margin.t + chartH);
 
-  const step = w / cats.length;
+  // ---- y ticks ----
+  noStroke();
+  fill(0);
+  textSize(12);
+  textAlign(RIGHT, CENTER);
 
-  // draw points with jitter (random)
+  for (let v = 0; v <= maxV; v += yStep) {
+    const y = yMap(v);
+    stroke(0);
+    line(margin.l - 6, y, margin.l, y);
+    noStroke();
+    text(Math.round(v), margin.l - 10, y);
+  }
+
+  // ---- points ----
+  const stepX = chartW / cats.length;
+
   noStroke();
   fill(0, 0, 0, 110);
 
-  for (let i = 0; i < cats.length; i++) {
-    const cat = cats[i];
-    const xCenter = margin.l + (i + 0.5) * step;
+  for (let p of points) {
+    const i = cats.indexOf(p.cat);
+    if (i === -1) continue;
 
-    for (let v of groups[cat]) {
-      const y = yMap(v);
-      const xJ = random(-step * 0.18, step * 0.18); // jitter
-      const px = xCenter + xJ;
-      const py = y;
-      circle(px, py, 5);
+    const px = p.xCenter + p.xJ;
+    const py = yMap(p.v);
+    circle(px, py, 5);
 
-      points.push({ px, py, cat, v });
-    }
+    // store drawn position for tooltip hit-testing
+    p.px = px;
+    p.py = py;
   }
 
-  // labels
+  // ---- Titles/labels ----
   noStroke();
   fill(0);
-  textSize(16);
-  text("Interactive Strip Plot — Total_Sales by Category (hover points)", margin.l, 25);
+  textAlign(LEFT, BASELINE);
+  textSize(18);
+  text(`Strip Plot of ${VAL_COL} by ${CAT_COL} (Top 10)`, margin.l, 30);
 
   textSize(12);
-  textAlign(CENTER);
-  text("Category (top 10)", margin.l + w / 2, height - 25);
+  textAlign(CENTER, TOP);
+  text("Category", margin.l + chartW / 2, margin.t + chartH + 60);
 
   push();
-  translate(25, margin.t + h / 2);
+  translate(25, margin.t + chartH / 2);
   rotate(-HALF_PI);
+  textAlign(CENTER, TOP);
   text(VAL_COL, 0, 0);
   pop();
 
-  // category labels
+  // ---- category labels ----
+  textSize(12);
+  textAlign(CENTER, TOP);
+
   for (let i = 0; i < cats.length; i++) {
-    const x = margin.l + (i + 0.5) * step;
+    const x = margin.l + (i + 0.5) * stepX;
     push();
-    translate(x, margin.t + h + 10);
+    translate(x, margin.t + chartH + 10);
     rotate(radians(25));
     text(cats[i], 0, 20);
     pop();
   }
 
-  // tooltip: nearest point under mouse
+  // ---- tooltip: nearest point under mouse ----
   const hit = findNearestPoint(mouseX, mouseY, 8);
   if (hit) {
     drawTooltip(`${hit.cat}\n${VAL_COL}: ${hit.v.toFixed(0)}`, mouseX, mouseY);
@@ -123,6 +186,7 @@ function findNearestPoint(mx, my, radius) {
   let bestD = radius;
 
   for (let p of points) {
+    if (p.px === undefined) continue;
     const d = dist(mx, my, p.px, p.py);
     if (d <= bestD) {
       bestD = d;
