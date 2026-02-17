@@ -4,12 +4,19 @@ const COL = "Total_Sales";
 let xs = [];   // sorted values
 let hovered = null;
 
+// Consistent sizing (matches the other charts if you want)
+const W = 900, H = 550;
+const margin = { l: 90, r: 40, t: 60, b: 80 };
+let chartW, chartH;
+
 function preload() {
   table = loadTable("data/Online-eCommerce_A3_clean.csv", "csv", "header");
 }
 
 function setup() {
-  createCanvas(950, 520);
+  createCanvas(W, H);
+  chartW = width - margin.l - margin.r;
+  chartH = height - margin.t - margin.b;
   buildECDF();
 }
 
@@ -22,33 +29,80 @@ function buildECDF() {
   xs.sort((a, b) => a - b);
 }
 
+function niceStep(maxVal, ticks = 6) {
+  const raw = maxVal / ticks;
+  const pow10 = Math.pow(10, Math.floor(Math.log10(raw)));
+  const n = raw / pow10;
+  let step;
+  if (n < 1.5) step = 1;
+  else if (n < 3) step = 2;
+  else if (n < 7) step = 5;
+  else step = 10;
+  return step * pow10;
+}
+
 function draw() {
   background(255);
   hovered = null;
 
-  const margin = { l: 70, r: 20, t: 40, b: 70 };
-  const w = width - margin.l - margin.r;
-  const h = height - margin.t - margin.b;
+  // --- Scale ---
+  const minX = 0;
+  const rawMax = xs[xs.length - 1];
+  const maxX = rawMax * 1.05; // 5% padding
 
-  const minX = xs[0];
-  const maxX = xs[xs.length - 1];
+  function xMap(v) { return map(v, minX, maxX, margin.l, margin.l + chartW); }
+  function yMap(p) { return map(p, 0, 1, margin.t + chartH, margin.t); }
 
-  function xMap(v) { return map(v, minX, maxX, margin.l, margin.l + w); }
-  function yMap(p) { return map(p, 0, 1, margin.t + h, margin.t); }
+  // --- Grid (both directions) ---
+  const xStep = niceStep(maxX, 7);
 
-  // grid
-  stroke(220);
-  for (let i = 0; i <= 10; i++) {
-    const y = margin.t + (h * i) / 10;
-    line(margin.l, y, margin.l + w, y);
+  stroke(235);
+
+  // horizontal grid at 0, .25, .5, .75, 1
+  for (let i = 0; i <= 4; i++) {
+    const p = i / 4;
+    const y = yMap(p);
+    line(margin.l, y, margin.l + chartW, y);
   }
 
-  // axes
-  stroke(0);
-  line(margin.l, margin.t, margin.l, margin.t + h);
-  line(margin.l, margin.t + h, margin.l + w, margin.t + h);
+  // vertical grid
+  for (let v = 0; v <= maxX; v += xStep) {
+    const x = xMap(v);
+    line(x, margin.t, x, margin.t + chartH);
+  }
 
-  // ECDF line
+  // --- Axes ---
+  stroke(0);
+  line(margin.l, margin.t, margin.l, margin.t + chartH);
+  line(margin.l, margin.t + chartH, margin.l + chartW, margin.t + chartH);
+
+  // --- Tick labels ---
+  noStroke();
+  fill(0);
+  textSize(12);
+
+  // x ticks
+  textAlign(CENTER, TOP);
+  for (let v = 0; v <= maxX; v += xStep) {
+    const x = xMap(v);
+    stroke(0);
+    line(x, margin.t + chartH, x, margin.t + chartH + 6);
+    noStroke();
+    text(Math.round(v), x, margin.t + chartH + 10);
+  }
+
+  // y ticks (0..1)
+  textAlign(RIGHT, CENTER);
+  for (let i = 0; i <= 4; i++) {
+    const p = i / 4;
+    const y = yMap(p);
+    stroke(0);
+    line(margin.l - 6, y, margin.l, y);
+    noStroke();
+    text(p.toFixed(2), margin.l - 10, y);
+  }
+
+  // --- ECDF curve ---
   stroke(0);
   strokeWeight(2);
   noFill();
@@ -60,47 +114,49 @@ function draw() {
   }
   endShape();
 
-  // hover: find nearest x by mouse x
+  // --- Hover ---
   const mx = mouseX;
-  if (mx >= margin.l && mx <= margin.l + w) {
-    // binary search-ish: estimate index by proportion, then adjust
-    const targetX = map(mx, margin.l, margin.l + w, minX, maxX);
-    let idx = nearestIndex(xs, targetX);
+  const my = mouseY;
+
+  if (mx >= margin.l && mx <= margin.l + chartW && my >= margin.t && my <= margin.t + chartH) {
+    const targetX = map(mx, margin.l, margin.l + chartW, minX, maxX);
+    const idx = nearestIndex(xs, targetX);
     const p = (idx + 1) / xs.length;
+
     const px = xMap(xs[idx]);
     const py = yMap(p);
 
-    if (dist(mouseX, mouseY, px, py) < 12) hovered = { idx, x: xs[idx], p, px, py };
-
-    // draw marker anyway (nice UX)
+    // marker
     noStroke();
     fill(0);
     circle(px, py, 6);
 
-    if (hovered) {
-      drawTooltip(`${COL}: ${hovered.x.toFixed(0)}\nECDF: ${hovered.p.toFixed(3)}`, mouseX, mouseY);
+    if (dist(mx, my, px, py) < 12) {
+      hovered = { idx, x: xs[idx], p, px, py };
+      drawTooltip(`${COL}: ${hovered.x.toFixed(0)}\nECDF: ${hovered.p.toFixed(3)}`, mx, my);
     }
   }
 
-  // labels
+  // --- Titles/labels ---
   noStroke();
   fill(0);
-  textSize(16);
-  text("ECDF — Total_Sales (hover near curve)", margin.l, 25);
+  textAlign(LEFT, BASELINE);
+  textSize(18);
+  text(`ECDF of ${COL}`, margin.l, 30);
 
   textSize(12);
-  textAlign(CENTER);
-  text(COL, margin.l + w / 2, height - 25);
+  textAlign(CENTER, TOP);
+  text(COL, margin.l + chartW / 2, margin.t + chartH + 40);
 
   push();
-  translate(20, margin.t + h / 2);
+  translate(25, margin.t + chartH / 2);
   rotate(-HALF_PI);
+  textAlign(CENTER, TOP);
   text("F(x)", 0, 0);
   pop();
 }
 
 function nearestIndex(arr, x) {
-  // returns index of closest value to x in sorted arr
   let lo = 0, hi = arr.length - 1;
   while (hi - lo > 1) {
     const mid = floor((lo + hi) / 2);
