@@ -1,6 +1,6 @@
 let table;
 
-const COL = "Quantity"; // change to "Total_Sales" only if you want that variable
+const COL = "Total_Sales";
 
 let vals = [];
 let stats = null;
