@@ -104,12 +104,17 @@ function draw() {
   const boxW = 170;
 
   // y mapping: show full min..max range (or start at 0 if you prefer)
-  const minYVal = stats.minV;
-  const maxYVal = stats.maxV;
+  // show box clearly by scaling to fences, not extreme max
+const pad = (stats.highFence - stats.lowFence) * 0.08;
+const minYVal = max(0, stats.lowFence - pad);
+const maxYVal = stats.highFence + pad;
+
 
   function yMap(v) {
-    return map(v, minYVal, maxYVal, margin.t + chartH, margin.t);
-  }
+  const vv = constrain(v, minYVal, maxYVal);
+  return map(vv, minYVal, maxYVal, margin.t + chartH, margin.t);
+}
+
 
   // ---- Grid + Y ticks ----
   const yStep = niceStep(maxYVal - minYVal, 6);
@@ -180,6 +185,11 @@ function draw() {
   textSize(18);
   textAlign(LEFT, BASELINE);
   text(`Box Plot — ${COL} (Outliers Highlighted: ${stats.outliers.length})`, margin.l, 30);
+
+textSize(12);
+textAlign(LEFT, TOP);
+text(`Outlier points drawn: ${outlierPts.length}`, margin.l, 40);
+
 
   textSize(12);
   textAlign(CENTER, TOP);
