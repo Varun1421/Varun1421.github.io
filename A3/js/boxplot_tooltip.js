@@ -1,16 +1,16 @@
 let table;
 
-// Use Total_Sales for real outliers (Quantity often has none)
-const COL = "Total_Sales"; // <-- change to "Quantity" if you insist
+const COL = "Quantity"; // change to "Total_Sales" only if you want that variable
 
 let vals = [];
-let outliers = [];      // array of { v, jx } where jx is stable jitter
 let stats = null;
+
+// store outliers as objects with stable jittered x positions
+let outlierPts = [];
 let hoveredPt = null;
 
-// Canvas + margins (consistent with other charts)
-const W = 900, H = 550;
-const margin = { l: 90, r: 40, t: 60, b: 80 };
+const W = 700, H = 560;
+const margin = { l: 110, r: 40, t: 60, b: 90 };
 let chartW, chartH;
 
 function preload() {
@@ -21,7 +21,9 @@ function setup() {
   createCanvas(W, H);
   chartW = width - margin.l - margin.r;
   chartH = height - margin.t - margin.b;
+
   computeBoxStats();
+  buildStableOutlierPoints();
 }
 
 function quantile(sortedArr, q) {
@@ -74,67 +76,69 @@ function computeBoxStats() {
     if (vals[i] <= highFence) { whiskHigh = vals[i]; break; }
   }
 
-  // Outliers + stable jitter value (so they don't jump each frame)
-  outliers = [];
-  for (let i = 0; i < vals.length; i++) {
-    const v = vals[i];
-    if (v < lowFence || v > highFence) {
-      // stable pseudo-random jitter based on index + value
-      const seed = (i * 97 + Math.floor(v * 1000)) % 1000;
-      const jx = map(seed, 0, 999, -30, 30);
-      outliers.push({ v, jx });
-    }
-  }
+  const outliers = vals.filter(v => v < lowFence || v > highFence);
 
-  stats = { minV, q1, med, q3, maxV, iqr, lowFence, highFence, whiskLow, whiskHigh };
+  stats = { minV, q1, med, q3, maxV, iqr, lowFence, highFence, whiskLow, whiskHigh, outliers };
+}
+
+function buildStableOutlierPoints() {
+  outlierPts = [];
+
+  // stable jitter so hover works
+  randomSeed(42);
+
+  const xCenter = margin.l + chartW / 2;
+  const jitter = 28;
+
+  for (let v of stats.outliers) {
+    const px = xCenter + random(-jitter, jitter);
+    outlierPts.push({ v, px });
+  }
 }
 
 function draw() {
   background(255);
+  hoveredPt = null;
 
-  // ---- Better scale choice ----
-  // Use fences as the visible range so the "box" is readable.
-  // Add a little padding so it doesn't touch edges.
-  const pad = (stats.highFence - stats.lowFence) * 0.08;
-  const yMin = max(0, stats.lowFence - pad);     // clamp at 0 for sales-like data
-  const yMax = stats.highFence + pad;
+  const x = margin.l + chartW / 2;
+  const boxW = 170;
+
+  // y mapping: show full min..max range (or start at 0 if you prefer)
+  const minYVal = stats.minV;
+  const maxYVal = stats.maxV;
 
   function yMap(v) {
-    // clamp to visible area so extreme outliers stay on chart
-    const vv = constrain(v, yMin, yMax);
-    return map(vv, yMin, yMax, margin.t + chartH, margin.t);
+    return map(v, minYVal, maxYVal, margin.t + chartH, margin.t);
   }
 
-  // ---- Grid + ticks (nice numbers) ----
-  const step = niceStep(yMax);
+  // ---- Grid + Y ticks ----
+  const yStep = niceStep(maxYVal - minYVal, 6);
   stroke(235);
-  for (let v = 0; v <= yMax; v += step) {
-    const y = map(v, yMin, yMax, margin.t + chartH, margin.t);
+  strokeWeight(1);
+
+  // grid lines + tick labels
+  textSize(12);
+  textAlign(RIGHT, CENTER);
+  fill(0);
+
+  for (let tv = Math.ceil(minYVal / yStep) * yStep; tv <= maxYVal; tv += yStep) {
+    const y = yMap(tv);
     line(margin.l, y, margin.l + chartW, y);
+
+    stroke(0);
+    line(margin.l - 6, y, margin.l, y);
+    noStroke();
+    text(tv.toFixed(0), margin.l - 10, y);
+
+    stroke(235);
   }
 
-  // Axes
+  // ---- Axes ----
   stroke(0);
   line(margin.l, margin.t, margin.l, margin.t + chartH);
   line(margin.l, margin.t + chartH, margin.l + chartW, margin.t + chartH);
 
-  // Y axis ticks/labels
-  noStroke();
-  fill(0);
-  textSize(12);
-  textAlign(RIGHT, CENTER);
-  for (let v = 0; v <= yMax; v += step) {
-    const y = map(v, yMin, yMax, margin.t + chartH, margin.t);
-    stroke(0);
-    line(margin.l - 6, y, margin.l, y);
-    noStroke();
-    text(Math.round(v), margin.l - 10, y);
-  }
-
-  // ---- Box plot drawing ----
-  const x = margin.l + chartW / 2;
-  const boxW = 180;
-
+  // ---- Boxplot geometry ----
   const yQ1 = yMap(stats.q1);
   const yMed = yMap(stats.med);
   const yQ3 = yMap(stats.q3);
@@ -157,40 +161,46 @@ function draw() {
   // median
   line(x - boxW / 2, yMed, x + boxW / 2, yMed);
 
-  // ---- Outliers (stable jitter, hoverable) ----
-  hoveredPt = null;
+  // ---- Outliers (stable) ----
   noStroke();
   fill(220, 0, 0, 170);
 
-  for (let p of outliers) {
-    const px = x + p.jx;
+  for (let p of outlierPts) {
     const py = yMap(p.v);
-    circle(px, py, 7);
+    circle(p.px, py, 7);
 
-    if (dist(mouseX, mouseY, px, py) <= 7) {
-      hoveredPt = { v: p.v, px, py };
+    if (dist(mouseX, mouseY, p.px, py) <= 9) {
+      hoveredPt = { v: p.v };
     }
   }
 
-  // ---- Title & labels ----
+  // ---- Titles/labels ----
   noStroke();
   fill(0);
-  textAlign(LEFT, BASELINE);
   textSize(18);
-  text(`Box Plot of ${COL}`, margin.l, 30);
+  textAlign(LEFT, BASELINE);
+  text(`Box Plot — ${COL} (Outliers Highlighted: ${stats.outliers.length})`, margin.l, 30);
 
   textSize(12);
   textAlign(CENTER, TOP);
-  text(COL, margin.l + chartW / 2, margin.t + chartH + 40);
+  text(COL, width / 2, height - 30);
 
-  // Small caption (clean)
+  push();
+  translate(25, margin.t + chartH / 2);
+  rotate(-HALF_PI);
+  textAlign(CENTER, TOP);
+  text("Value", 0, 0);
+  pop();
+
+  // summary line
   textAlign(LEFT, TOP);
+  textSize(12);
   text(
-    `Outliers: ${outliers.length}   (IQR fences: < ${stats.lowFence.toFixed(2)}  or  > ${stats.highFence.toFixed(2)})`,
-    margin.l, height - 40
+    `Q1=${stats.q1.toFixed(2)}  Median=${stats.med.toFixed(2)}  Q3=${stats.q3.toFixed(2)}  IQR=${stats.iqr.toFixed(2)}`,
+    margin.l, height - 70
   );
 
-  // Tooltip
+  // tooltip
   if (hoveredPt) {
     drawTooltip(`Outlier\n${COL}: ${hoveredPt.v.toFixed(2)}`, mouseX, mouseY);
   }
