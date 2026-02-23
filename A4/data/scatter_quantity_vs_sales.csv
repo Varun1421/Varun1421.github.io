@@ -1,0 +1,5096 @@
+quantity,total_sales,brand,category
+1.0,8450.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+4.0,39780.0,Gigabyte,MotherBoard
+2.0,2990.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,RAM
+2.0,17004.0,MSI,MotherBoard
+1.0,3484.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+3.0,8190.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+1.0,8502.0,MSI,Printer
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+4.0,23400.0,Gigabyte,Motherboard
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+2.0,17004.0,MSI,Motherboard
+1.0,3484.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+3.0,8190.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+2.0,2990.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+3.0,17550.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+3.0,4485.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+3.0,10452.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+1.0,9945.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+3.0,4485.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+2.0,5460.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+3.0,4485.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+3.0,10452.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+1.0,9945.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+1.0,8502.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+3.0,17550.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+3.0,4485.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+3.0,8190.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+2.0,2990.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+2.0,6968.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+2.0,5460.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,NIC
+4.0,34008.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,RAM
+1.0,9945.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+1.0,2730.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+3.0,4485.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,Computer Case
+1.0,9945.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+2.0,6968.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+2.0,5460.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+4.0,39780.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+3.0,8190.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+1.0,9945.0,Gigabyte,Mouse
+3.0,4485.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+2.0,17004.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,NIC
+4.0,34008.0,MSI,Printer
+3.0,10452.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+4.0,23400.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+4.0,34008.0,MSI,Mouse
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+1.0,9945.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+3.0,4485.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+2.0,17004.0,MSI,Mouse
+2.0,6968.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+3.0,17550.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+1.0,9945.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+2.0,17004.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+4.0,34008.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+1.0,2730.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,NIC
+1.0,8502.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+3.0,4485.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+1.0,8502.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+2.0,17004.0,MSI,Mouse
+2.0,6968.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+4.0,39780.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+3.0,8190.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,RAM
+1.0,9945.0,Gigabyte,Motherboard
+3.0,4485.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+1.0,3484.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+4.0,34008.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,NIC
+1.0,8502.0,MSI,Printer
+3.0,10452.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,RAM
+4.0,23400.0,Gigabyte,Motherboard
+3.0,8190.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+2.0,17004.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+3.0,8190.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+4.0,34008.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+3.0,17550.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+4.0,34008.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+2.0,19890.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,RAM
+2.0,17004.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,Computer Case
+1.0,9945.0,Gigabyte,Mouse
+3.0,4485.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+3.0,17550.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+4.0,39780.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,NIC
+1.0,8502.0,MSI,Printer
+3.0,10452.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,RAM
+2.0,17004.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+3.0,4485.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+2.0,17004.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+3.0,4485.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+3.0,17550.0,Gigabyte,Printer
+2.0,5460.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+3.0,4485.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,RAM
+2.0,19890.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+2.0,17004.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+2.0,2990.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,NIC
+4.0,39780.0,Gigabyte,Printer
+3.0,4485.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+4.0,34008.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,RAM
+1.0,9945.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+4.0,34008.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+3.0,4485.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+1.0,8502.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+3.0,4485.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+3.0,8190.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+2.0,19890.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,RAM
+2.0,17004.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+1.0,9945.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+2.0,6968.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,NIC
+3.0,17550.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+1.0,8502.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+3.0,8190.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+1.0,9945.0,Gigabyte,Motherboard
+3.0,4485.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+1.0,9945.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+4.0,34008.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+2.0,19890.0,Gigabyte,Motherboard
+3.0,4485.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+2.0,2990.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+4.0,34008.0,MSI,Mouse
+2.0,6968.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+3.0,17550.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+1.0,8502.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+4.0,23400.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+2.0,2990.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+1.0,8502.0,MSI,Motherboard
+1.0,3484.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,Computer Case
+1.0,9945.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+3.0,17550.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+4.0,39780.0,Gigabyte,Printer
+3.0,4485.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+3.0,8190.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,RAM
+2.0,19890.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+1.0,8502.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+3.0,4485.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+4.0,34008.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,RAM
+4.0,23400.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+2.0,19890.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,Computer Case
+4.0,34008.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+4.0,34008.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+4.0,23400.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+3.0,4485.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,NIC
+4.0,34008.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+2.0,19890.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,Computer Case
+1.0,9945.0,Gigabyte,Mouse
+2.0,2990.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,NIC
+1.0,8502.0,MSI,Printer
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+4.0,34008.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+2.0,17004.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,NIC
+4.0,39780.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+4.0,34008.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,Computer Case
+2.0,17004.0,MSI,Mouse
+2.0,6968.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+2.0,5460.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,NIC
+4.0,34008.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+2.0,17004.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+2.0,17004.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+1.0,2730.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+4.0,34008.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,RAM
+1.0,9945.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+1.0,8502.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+3.0,8190.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+4.0,5980.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+1.0,8502.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,Computer Case
+1.0,9945.0,Gigabyte,Mouse
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+3.0,17550.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,NIC
+1.0,8502.0,MSI,Printer
+4.0,13936.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+2.0,17004.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+3.0,10452.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+3.0,29835.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,Computer Case
+1.0,9945.0,Gigabyte,Mouse
+3.0,4485.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,NIC
+3.0,17550.0,Gigabyte,Printer
+1.0,2730.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+1.0,9945.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+1.0,8502.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+4.0,23400.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+1.0,8502.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+2.0,2990.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+1.0,5850.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,RAM
+1.0,9945.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+3.0,8190.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+3.0,4485.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+4.0,34008.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+1.0,2730.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+3.0,4485.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+1.0,8502.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+1.0,2730.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+2.0,5460.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,NIC
+1.0,8502.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+3.0,29835.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+2.0,5460.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,NIC
+2.0,17004.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+4.0,23400.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,RAM
+1.0,5850.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+2.0,11700.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+1.0,1495.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+1.0,3484.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+2.0,5460.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+3.0,29835.0,Gigabyte,Printer
+3.0,4485.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+1.0,2730.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+2.0,2990.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+2.0,5460.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+3.0,4485.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,2184.0,Hynix,Computer Case
+1.0,8502.0,MSI,Mouse
+2.0,6968.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+4.0,23400.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+1.0,1495.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+3.0,10452.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,RAM
+2.0,11700.0,Gigabyte,Motherboard
+2.0,5460.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,RAM
+4.0,39780.0,Gigabyte,Motherboard
+1.0,1495.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,RAM
+1.0,8502.0,MSI,Motherboard
+2.0,6968.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,65000.0,Nvidia,Graphic Card
+4.0,18200.0,Hynix,Computer Case
+3.0,17550.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+1.0,13000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,Computer Case
+1.0,9945.0,Gigabyte,Mouse
+2.0,2990.0,Asus,Cabinet
+1.0,1105.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+4.0,39000.0,Dell,Monitor
+4.0,52000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+4.0,65260.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+4.0,3120.0,Samsung,Mouse
+1.0,13650.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+4.0,10920.0,Asus,Cabinet
+3.0,4485.0,Dell,Keyboard
+3.0,1365.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+3.0,4485.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+2.0,27300.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+3.0,25506.0,MSI,Printer
+1.0,3484.0,Asus,Cabinet
+1.0,10725.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+3.0,56550.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+2.0,11700.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+3.0,8190.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,RAM
+2.0,19890.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,6552.0,Hynix,RAM
+3.0,25506.0,MSI,Motherboard
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+1.0,3445.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,Computer Case
+4.0,23400.0,Gigabyte,Mouse
+3.0,8190.0,Asus,Cabinet
+2.0,2990.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+4.0,33800.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+3.0,27300.0,Nvidia,Graphic Card
+1.0,8515.0,Hynix,Computer Case
+4.0,39780.0,Gigabyte,Mouse
+2.0,2990.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+2.0,1690.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+2.0,17004.0,MSI,Mouse
+3.0,10452.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+1.0,18850.0,Intel,CPU
+2.0,2080.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+3.0,25350.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+1.0,12350.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+3.0,25545.0,Hynix,NIC
+1.0,9945.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+3.0,2535.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,NIC
+1.0,8502.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+3.0,32175.0,Samsung,Monitor
+4.0,13780.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+4.0,75400.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+1.0,780.0,Samsung,Mouse
+3.0,40950.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+3.0,48750.0,Nvidia,Graphic Card
+3.0,13650.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
+4.0,10920.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+2.0,910.0,Samsung,Mouse
+3.0,37050.0,Dell,Monitor
+3.0,39000.0,Western Digital,HDD
+3.0,25350.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+4.0,34060.0,Hynix,RAM
+2.0,19890.0,Gigabyte,Motherboard
+4.0,5980.0,Asus,Cabinet
+4.0,4420.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+3.0,29250.0,Dell,Monitor
+3.0,39000.0,Seagate,HDD
+1.0,13650.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+1.0,9100.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,RAM
+4.0,34008.0,MSI,Motherboard
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+3.0,48945.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+3.0,3120.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+4.0,33800.0,Western Digital,HDD
+3.0,17550.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+1.0,16250.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,Computer Case
+1.0,5850.0,Gigabyte,Mouse
+4.0,10920.0,Asus,Cabinet
+4.0,5980.0,Dell,Keyboard
+4.0,1820.0,Samsung,Mouse
+4.0,49400.0,Dell,Monitor
+4.0,52000.0,Western Digital,HDD
+1.0,8450.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,Computer Case
+2.0,19890.0,Gigabyte,Mouse
+4.0,5980.0,Asus,Cabinet
+3.0,3315.0,Dell,Keyboard
+1.0,845.0,Samsung,Mouse
+2.0,19500.0,Dell,Monitor
+2.0,26000.0,Seagate,HDD
+3.0,40950.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,4368.0,Hynix,Computer Case
+3.0,25506.0,MSI,Mouse
+4.0,13936.0,Asus,Cabinet
+2.0,21450.0,Samsung,Monitor
+3.0,10335.0,Samsung,RAM
+1.0,16315.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+4.0,4160.0,Dell,Keyboard
+3.0,2340.0,Samsung,Mouse
+2.0,27300.0,Dell,Monitor
+2.0,16900.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+2.0,22100.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+1.0,4550.0,Hynix,NIC
+2.0,11700.0,Gigabyte,Printer
+3.0,8190.0,Asus,Cabinet
+1.0,1495.0,Dell,Keyboard
+1.0,455.0,Samsung,Mouse
+2.0,24700.0,Dell,Monitor
+2.0,26000.0,Western Digital,HDD
+2.0,16900.0,Samsung,SSD
+3.0,33150.0,Intel,CPU
+4.0,36400.0,Nvidia,Graphic Card
+2.0,17030.0,Hynix,NIC
+2.0,19890.0,Gigabyte,Printer
+2.0,2990.0,Asus,Cabinet
+2.0,2210.0,Dell,Keyboard
+4.0,3380.0,Samsung,Mouse
+1.0,9750.0,Dell,Monitor
+1.0,13000.0,Seagate,HDD
+4.0,54600.0,Samsung,SSD
+1.0,11050.0,Intel,CPU
+2.0,18200.0,Nvidia,Graphic Card
+4.0,8736.0,Hynix,NIC
+4.0,34008.0,MSI,Printer
+2.0,6968.0,Asus,Cabinet
+4.0,42900.0,Samsung,Monitor
+2.0,6890.0,Samsung,RAM
+2.0,32630.0,Acer,Monitor
+2.0,37700.0,Intel,CPU
+1.0,1040.0,Dell,Keyboard
+2.0,1560.0,Samsung,Mouse
+4.0,54600.0,Dell,Monitor
+1.0,8450.0,Western Digital,HDD
+1.0,5850.0,Samsung,SSD
+4.0,44200.0,Intel,CPU
+2.0,32500.0,Nvidia,Graphic Card
+2.0,9100.0,Hynix,RAM
+3.0,17550.0,Gigabyte,Motherboard
