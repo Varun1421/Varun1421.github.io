@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bar Chart in D3</title>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    body { font-family: Arial, sans-serif; }
+
+    .bar { fill: steelblue; }
+    .bar:hover { fill: orange; }
+
+    .axis-x path, .axis-y path {
+      fill: none;
+      stroke: black;
+      shape-rendering: crispEdges;
+    }
+    .axis-x .tick line, .axis-y .tick line { stroke: #ccc; }
+    .axis text { font-size: 12px; }
+
+    .title { font-size: 18px; font-weight: 700; margin: 10px 0; }
+    .axis-label { font-size: 12px; }
+
+    .tooltip {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.75);
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 13px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s ease;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+
+<body>
+
+<a href="index.html">← Back to A4</a>
+
+<div class="title">Bar Chart in D3</div>
+
+<div id="chart-container"></div>
+<div class="tooltip" id="tooltip"></div>
+
+<script src="js/bar.js"></script>
+</body>
+</html>

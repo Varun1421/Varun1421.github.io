@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Scatter Plot in D3</title>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<style>
+  body { font-family: Arial, sans-serif; }
+
+  .axis text { font-size: 12px; }
+
+  .dot { opacity: 0.6; }
+  .dot:hover { opacity: 1; }
+
+  .tooltip {
+    position: absolute;
+    background: rgba(0,0,0,0.75);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    pointer-events: none;
+    opacity: 0;
+    white-space: nowrap;
+  }
+</style>
+</head>
+
+<body>
+
+<a href="index.html">← Back to A4</a>
+
+<h2>Scatter Plot in D3</h2>
+
+<div id="chart-container"></div>
+<div id="tooltip" class="tooltip"></div>
+
+<script src="js/scatter.js"></script>
+
+</body>
+</html>
