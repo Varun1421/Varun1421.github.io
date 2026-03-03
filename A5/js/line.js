@@ -11,10 +11,9 @@ const COL_DATE = "Date";
 const COL_COUNTRY = "Country";
 const COL_AQI = "AQI Value";
 
-// 3+ lines for A+
 const COUNTRIES_TO_PLOT = ["India", "China", "United States of America"];
 
-// Date format in file: 2022-07-21
+// Date format
 const parseDate = d3.timeParse("%Y-%m-%d");
 const formatTooltipDate = d3.timeFormat("%b %d, %Y");
 
@@ -90,7 +89,7 @@ d3.csv(CSV_PATH).then(raw => {
   const xStart = d3.timeMonth.floor(minDate); // should become Jul 01 2022
   const xEnd = d3.timeMonth.ceil(maxDate);
 
-  // Filter to chosen countries (3 lines)
+  // Filter to chosen countries 
   const cleaned = cleanedAll.filter(d => COUNTRIES_TO_PLOT.includes(d.country));
   console.log("Rows after country filter:", cleaned.length);
 
