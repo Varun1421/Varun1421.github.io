@@ -149,8 +149,7 @@ d3.csv(CSV_PATH).then(raw => {
     }
   }
 
-  // Drop rows that are missing derived vars if you want cleaner plots.
-  // We'll keep them, but filter per-point in each cell for finite values.
+  // Drop rows that are missing derived vars for cleaner plots.
   const data = enriched;
 
   // Color scale
