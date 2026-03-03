@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bubble Chart in D3</title>
+
+  <!-- D3 -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    body { font-family: sans-serif; }
+    #chart-container { width: fit-content; }
+
+    /* Simple tooltip */
+    #tooltip {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0;
+      background: white;
+      border: 1px solid #999;
+      padding: 8px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Bubble Chart in D3</h1>
+
+  <div id="chart-container"></div>
+  <div id="tooltip"></div>
+
+  <!-- Your code -->
+  <script src="js/bubble.js"></script>
+</body>
+
+</html>
