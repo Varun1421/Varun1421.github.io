@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diverging Bar Chart</title>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      color: #222;
+      background-color: white;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    svg {
+      display: block;
+    }
+
+    .axis path,
+    .axis line {
+      stroke: #555;
+    }
+
+    .axis text {
+      font-size: 12px;
+      fill: #333;
+    }
+
+    .chart-title {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .legend-title {
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    a {
+      color: #1f5aa6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Diverging Bar Chart</h1>
+  <p>
+    This chart shows how each airline's average ticket price differs from the overall average using a diverging color scale.
+  </p>
+
+  <div id="chart"></div>
+
+  <p><a href="index.html">Back to Home</a></p>
+
+  <script src="js/diverging.js"></script>
+</body>
+</html>
