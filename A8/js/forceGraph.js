@@ -2,7 +2,7 @@ const width = 1800;
 const height = 1000;
 
 const svg = d3
-  .select("#chart")
+  .select("#graph")
   .append("svg")
   .attr("width", width)
   .attr("height", height);
