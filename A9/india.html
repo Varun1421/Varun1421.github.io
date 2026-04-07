@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>India Population Choropleth</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    svg {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .tooltip {
+      position: absolute;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 8px 10px;
+      pointer-events: none;
+      opacity: 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h2>India State Population Choropleth</h2>
+  <a href="index.html">← Back</a>
+
+  <div id="tooltip" class="tooltip"></div>
+<svg width="900" height="900"></svg>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="./js/india.js"></script>
+<!-- I didn't have county boundary data in my dataset, so I used an external
+   TopoJSON file from github:
+   https://github.com/udit-001/india-maps-data/blob/main/topojson/india.json
+   This provides the shapes for Indian states, which I then joined with my
+   CSV data using the names to create the choropleth map.
+-->
+</body>
+</html>

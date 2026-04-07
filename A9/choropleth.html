@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Choropleth Map</title>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<!-- I didn't have county boundary data in my dataset, so I used an external
+   TopoJSON file from the us-atlas project (via jsDelivr CDN):
+   https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json
+   This provides the shapes for U.S. counties, which I then joined with my
+   CSV data using the FIPS code to create the choropleth map.
+-->
+
+
+
+  <style>
+    body { font-family: Arial; }
+    svg { display: block; margin: auto; }
+
+    .tooltip {
+      position: absolute;
+      background: white;
+      border: 1px solid #ccc;
+      padding: 6px;
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>US County Choropleth</h2>
+  <a href="index.html">← Back</a>
+
+  <div id="tooltip" class="tooltip"></div>
+  <svg width="1100" height="700"></svg>
+
+  <script type="module" src="./js/choropleth.js"></script>
+
+</body>
+</html>
