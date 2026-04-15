@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>A-Level Visualization</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .charts-container {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .chart-box {
+      width: 470px;
+    }
+
+    .chart-box img {
+      width: 100%;
+      display: block;
+    }
+
+    .notes {
+      max-width: 980px;
+      margin: 30px auto;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>A-Level Misleading Visualization</h1>
+  <h2>Modified USD/INR Dataset Analysis</h2>
+
+  <div class="charts-container">
+    <div class="chart-box">
+      <img src="assets/rupee_surge_chart.png" alt="AI generated rupee surge chart">
+      <p>AI-generated propaganda-style chart using the modified dataset to exaggerate INR recovery.</p>
+    </div>
+  </div>
+
+  <div class="charts-container">
+    <div class="chart-box">
+      <div id="modified-chart"></div>
+      <p>Modified data exaggerates rupee strengthening.</p>
+    </div>
+
+    <div class="chart-box">
+      <div id="original-chart"></div>
+      <p>Original dataset provides the true context.</p>
+    </div>
+  </div>
+
+  <div class="notes">
+    <h3>Modification Disclosure</h3>
+    <ul>
+      <li>04/01/2026: 93.226 → 92.500</li>
+      <li>04/02/2026: 92.978 → 91.900</li>
+      <li>04/03/2026: 92.710 → 91.400</li>
+      <li>04/06/2026: 93.065 → 90.800</li>
+      <li>04/07/2026: 92.867 → 90.900</li>
+      <li>04/08/2026: 92.585 → 90.300</li>
+      <li>04/09/2026: 92.470 → 89.800</li>
+      <li>04/10/2026: 93.090 → 89.500</li>
+      <li>04/13/2026: 93.205 → 89.200</li>
+    </ul>
+  </div>
+
+  <h2>Real-World Misleading Chart Analysis</h2>
+
+  <div class="charts-container">
+    <div class="chart-box">
+      <img src="assets/realworld_original.png" alt="Original Bloomberg chart">
+      <p>Original Bloomberg chart may confuse viewers because upward movement visually implies improvement despite indicating rupee depreciation.</p>
+    </div>
+
+    <div class="chart-box">
+      <div id="ethical-realworld-chart"></div>
+      <p>Ethical remake clarifies that higher USD/INR means a weaker rupee.</p>
+    </div>
+  </div>
+
+  <div class="notes">
+    <h2>Chart Literacy Checklist</h2>
+    <ol>
+      <li>Does the y-axis start at zero when appropriate?</li>
+      <li>Has the chart cropped the time window to favor a narrative?</li>
+      <li>Are labels and units clearly shown?</li>
+      <li>Does the title imply causation without proof?</li>
+      <li>Are important data points omitted?</li>
+      <li>Does color framing bias the interpretation?</li>
+      <li>Does the metric’s direction match intuitive chart movement?</li>
+      <li>Are annotations or highlights selectively emphasizing one conclusion?</li>
+    </ol>
+  </div>
+
+  <script src="js/a_modified_charts.js"></script>
+  <script src="js/a_realworld.js"></script>
+
+</body>
+</html>

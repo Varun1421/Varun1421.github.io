@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C-Level Visualization</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .charts-container {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .chart-box {
+      width: 470px;
+    }
+
+    .chart-box img {
+      width: 100%;
+      display: block;
+    }
+
+    .chart-box p {
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <h1>C-Level Misleading Visualization</h1>
+  <h2>Gaming Increases Intelligence</h2>
+
+  <div class="charts-container">
+    <div class="chart-box">
+      <img src="assets/c_ai_chart_1.png" alt="AI-generated gaming chart 1" />
+      <p>This AI-generated chart exaggerates the relationship between gaming and IQ.</p>
+    </div>
+
+    <div class="chart-box">
+      <img src="assets/c_ai_chart_2.png" alt="AI-generated gaming chart 2" />
+      <p>This AI-generated chart falsely implies gaming directly causes higher intelligence.</p>
+    </div>
+  </div>
+
+  <div class="charts-container">
+    <div class="chart-box">
+      <div id="deceptive-chart"></div>
+      <p>This chart is deceptive because it exaggerates the apparent effect using misleading design choices.</p>
+    </div>
+
+    <div class="chart-box">
+      <div id="ethical-chart"></div>
+      <p>This chart is ethical because it presents the same data more honestly and neutrally.</p>
+    </div>
+  </div>
+
+  <script src="js/charts.js"></script>
+</body>
+</html>
